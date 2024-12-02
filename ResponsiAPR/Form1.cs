@@ -8,6 +8,7 @@ namespace ResponsiAPR
 {
     public partial class Form1 : Form
     {
+    //CONNECTED
         string connString = "Host=localhost;Port=5432;Username=postgres;" +
             "Password=admin123;Database=responsiDinda";
         NpgsqlConnection conn;
